@@ -20,7 +20,6 @@ internal class Menu
             { 
                 Console.Clear();
                 Console.WriteLine("Input cannot be empty, please Try again...");
-                Thread.Sleep(1000);
                 continue;
             }
 
@@ -31,7 +30,6 @@ internal class Menu
             {
                 Console.Clear();
                 Console.WriteLine("Category not found, please Try again...");
-                Thread.Sleep(1000);
                 continue;
             }
 
@@ -58,7 +56,6 @@ internal class Menu
             {
                 Console.Clear();
                 Console.WriteLine("Drink not found, please Try again...");
-                Thread.Sleep(1000);
                 continue;
             }
             
@@ -66,7 +63,6 @@ internal class Menu
             {
                 Console.Clear();
                 Console.WriteLine("Input cannot be empty, please Try again...");
-                Thread.Sleep(1000);
                 continue;
             }
 
@@ -74,7 +70,6 @@ internal class Menu
             {
                 Console.Clear();
                 Console.WriteLine("Invalid input, please Try again...");
-                Thread.Sleep(1000);
                 continue;
             }
 
